@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  bot:
+    image: music-bot
+    environment:
+      - DISCORD_TOKEN=your_discord_token_here
+    restart: always
