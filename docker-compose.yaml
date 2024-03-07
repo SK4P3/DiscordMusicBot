@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  bot:
+  musicbot:
     image: music-bot
     environment:
       - DISCORD_TOKEN=your_discord_token_here
